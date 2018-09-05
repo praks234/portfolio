@@ -1,0 +1,34 @@
+i {
+    border: solid #3f597c;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.Right {
+    position: fixed;
+    right: 3%;
+    cursor: pointer;
+    top: 50%;
+    transform: translate(0%, -50%);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.Left {
+    position: fixed;
+    left: 3%;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+
+@media (max-width: 499px) {
+    i {
+        padding: 7px;
+        display:none;
+    }
+}
